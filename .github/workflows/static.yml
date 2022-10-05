@@ -24,6 +24,9 @@ jobs:
 
     - name: Install Dependencies
       run: composer update --${{ matrix.dependency-version }} --no-interaction --prefer-dist --no-progress --ansi
+    
+    - name: Package Discovery
+      run: ./vendor/bin/testbench package:discover
 
     - name: Run PHPStan
       run: composer test:types

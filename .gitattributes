@@ -9,5 +9,6 @@
 .styleci.yml       export-ignore
 phpunit.xml.dist   export-ignore
 phpstan.neon.dist  export-ignore
+testbench.yaml     export-ignore
 CHANGELOG.md       export-ignore
 CONTRIBUTING.md    export-ignore

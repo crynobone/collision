@@ -1,0 +1,2 @@
+providers:
+  - NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider
